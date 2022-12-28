@@ -1,0 +1,2 @@
+.App{display:flex;flex-direction:column}.list{display:grid;grid-template-columns:1fr;margin-top:10px}.item{border:1px solid #ced4da;display:flex;flex-direction:row;justify-content:space-between;padding:10px}.item:hover{box-shadow:1px 1px 11px 1px #a3d3f8}.item-text{cursor:pointer;display:block;text-transform:capitalize}.item-delete{cursor:pointer;font-weight:800}.strike{-webkit-text-decoration:line-through green;text-decoration:line-through green}button{margin-left:5px}
+/*# sourceMappingURL=main.5d884c72.css.map*/
