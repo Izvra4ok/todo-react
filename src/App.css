@@ -6,9 +6,11 @@
 .list {
     display: grid;
     grid-template-columns: 1fr;
+    margin-top:10px;
 }
 
 .item {
+
     padding: 10px;
     border: 1px solid #ced4da;
     display: flex;
@@ -20,6 +22,7 @@
 }
 
 .item-text {
+    text-transform: capitalize;
     cursor: pointer;
     display: block;
 }
@@ -31,4 +34,7 @@
 
 .strike {
     text-decoration: line-through green;
+}
+button{
+    margin-left:5px;
 }

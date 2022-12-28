@@ -6,7 +6,7 @@ const List = ({todos, removeTask, toggleTask}) => {
         <div className={"list"}>
             {todos.map(todo =>
                 <Item key={todo.id}
-                      task={todo.task}
+                      task={todo.title}
                       complete={todo.complete}
                       id={todo.id}
                       removeTask={removeTask}

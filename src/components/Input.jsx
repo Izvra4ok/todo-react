@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const Input = ({addTask}) => {
+const Input = ({addTask,moreTask}) => {
 
     const [userInput, setUserInput] = useState("");
 
@@ -29,6 +29,7 @@ const Input = ({addTask}) => {
                        onKeyDown={handleKeysPress}
                 />
                 <button style={{width: "100px", display: "inline"}} className={"btn-primary"}>Save</button>
+                <button onClick={moreTask} style={{width: "100px", display: "inline"}} className={"btn-primary"}>Add Task</button>
             </form>
         </div>
     )
